@@ -38,35 +38,26 @@ function ParImpar(){
     if (número % 2 == 1){
         alert("El número " + número + " es Par")
     } else if (número % 2  == 0){
-        alert("El número " + número + " es Impar") 
+        alert("El número " + número + " es Impar"); 
     }
     else {
         alert("Ingrese un número Valido. ")
     }
 
-    function temperatura(){
+// Verificación de Temperatura 
+
+  }
+    function verificarTemperatura(){
         let temperatura = parseInt(prompt("Ingresar temperatura")); 
-    }
-
-    if (temperatura >= 30 && temperatura <= 30){
+  
+    if (temperatura >= 30 ){
         alert("Hace calor")
-    } else if (temperatura >= 15 && temperatura <= 30){
-        alert ("")
-    } else if (temperatura >= -5 && temperatura <= 15) {  
-        alert("Hace frio")
+    } else if (temperatura <= 30 ){
+        alert("Hace frio");
     } else{
-        alert("Ingrese un valo Válido");
+        alert("Ingrese un valo Válido")
 
     }
-    
-
-    
-    
-        
-    
-
-    
-
-}
+ }
 
 
