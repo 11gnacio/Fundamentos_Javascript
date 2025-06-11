@@ -1,0 +1,24 @@
+body{
+    color: rgb(31, 3, 3);
+    background-color: rgb(151, 150, 148);
+}
+
+button{
+    color: rgb(138, 138, 214);
+    border-radius: 6px;
+    box-shadow: 5px 5px 2px;
+}
+
+main{
+    text-align: center;
+}
+
+h1{
+    background-color: aqua;
+    padding: 60px;
+    border-radius: 9px;
+}
+
+p{
+    background-color: aqua;
+}
